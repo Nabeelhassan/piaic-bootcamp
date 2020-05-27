@@ -15,4 +15,4 @@ jobs:
         - name: Install surge
           run: npm install -g surge
         - name: Run surge
-          run: surge ./ --domain https://piaic_bootcamp_nabeelhassan.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+          run: surge ./ piaic_bootcamp_nabeelhassan.surge.sh --token ${{ secrets.SURGE_TOKEN }}
